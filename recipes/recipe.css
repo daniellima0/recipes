@@ -1,0 +1,62 @@
+body {
+    background-color: #f3f4f6;
+    color: #212427;
+    font-family: Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+h1,
+h2 {
+    color: #e3b261;
+    font-family: "Brush Script MT", cursive;
+    margin-left: 20px;
+}
+
+img {
+    display: flex;
+    margin: auto;
+    width: 600px;
+    border: 3px solid #e3b261;
+    border-radius: 10px;
+}
+
+/* #description {
+} */
+
+#description,
+#ingredients,
+#steps {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: auto;
+    margin-top: 60px;
+    border: 3px solid #e3b261;
+    border-radius: 10px;
+}
+
+p {
+    width: 960px;
+    align-self: center;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+p,
+li {
+    margin-top: 0;
+    font-size: 18px;
+}

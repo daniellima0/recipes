@@ -16,17 +16,20 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    /* border: 2px solid red; */
 }
 
 #recipes-container div {
-    border: 4px solid #e3b261;
+    border: 3px solid #e3b261;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .recipe-img {
+    border: 3px solid #e3b261;
+    border-radius: 10px;
+    border-top: none;
     width: 100%;
     height: 70%;
 }
